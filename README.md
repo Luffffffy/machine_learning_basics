@@ -3,6 +3,7 @@
 This repository contains implementations of basic machine learning algorithms in plain Python (Python Version 3.6+). All algorithms are implemented from scratch without using additional machine learning libraries. The intention of these notebooks is to provide a basic understanding of the algorithms and their underlying structure, *not* to provide the most efficient implementations. 
 
 - [Linear Regression](linear_regression.ipynb)
+- [Bayesian Linear Regression](bayesian_linear_regression.ipynb)
 - [Logistic Regression](logistic_regression.ipynb)
 - [Perceptron](perceptron.ipynb)
 - [k-nearest-neighbor](k_nearest_neighbour.ipynb)
@@ -11,6 +12,7 @@ This repository contains implementations of basic machine learning algorithms in
 - [Multinomial Logistic Regression](softmax_regression.ipynb)
 - [Decision tree for classification](decision_tree_classification.ipynb)
 - [Decision tree for regression](decision_tree_regression.ipynb)
+- [Support vector machines](support_vector_machines.ipynb)
   
   
 ![alt text](figures/decision_tree_predictions.png)
@@ -25,6 +27,11 @@ After several requests I started preparing notebooks on how to preprocess datase
 
 ![alt text](figures/image_preprocessing.png)
 
+
+## Live demo
+Run the notebooks online without having to clone the repository or install jupyter: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/zotroneneis/machine_learning_basics/HEAD).   
+   
+Note: this does not work for the `data_preprocessing.ipynb` and `image_preprocessing.ipynb` notebooks because they require downloading a dataset first.
 
 ## Feedback
 
